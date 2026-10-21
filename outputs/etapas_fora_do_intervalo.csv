@@ -1,0 +1,2 @@
+id_proposta,data_entrada,canal_origem,cidade,uf,tipo_imovel,valor_imovel,valor_solicitado,prazo_meses,score_credito,idade_cliente,renda_mensal_declarada,flag_cliente_recorrente,consultor_id,etapa_max_funil,status_final,tempo_analise_dias,data_assinatura_contrato,taxa_juros_aa,ltv_calculado,acima_ltv_60,contratada
+PR-000081,2025-05-04,mídia paga,Brasília,DF,Casa,560213.94,215214.61,180,698,46,6920.03,0,CONS-020,7,Contratada,52,2025-06-25,1.36,0.38416503880642455,False,1

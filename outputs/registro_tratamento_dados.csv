@@ -1,0 +1,8 @@
+problema,tratamento,justificativa,quantidade
+Imóveis do tipo Terreno,Removidos da análise,Regra indicada no desafio.,535
+LTV ausente na base,"Calculado como valor_solicitado / valor_imovel, se valor_imovel > 0",Fórmula indicada no dicionário de dados.,0
+IDs duplicados,Contabilizados e preservados para investigação,Não excluir sem confirmar se são duplicidades reais.,0
+Linhas completamente duplicadas,Contabilizadas e preservadas para investigação,Evitar exclusão automática sem validação.,0
+Valores ausentes ou inválidos,"Mantidos como ausentes, sem preenchimento arbitrário",Não há base suficiente para inferir valores.,0
+Etapa fora do intervalo 1 a 6,Preservada e exportada para investigação,Validar a ocorrência com a origem.,1
+Conversão mensal oscilante,Analisada como série descritiva,Não declarar queda contínua sem evidência.,24

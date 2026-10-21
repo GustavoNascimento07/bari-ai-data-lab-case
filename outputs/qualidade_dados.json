@@ -1,0 +1,70 @@
+{
+  "propostas_originais": 6400,
+  "colunas_originais": 19,
+  "ids_duplicados": 0,
+  "linhas_completamente_duplicadas": 0,
+  "propostas_apos_remocao_terrenos": 5865,
+  "terrenos_removidos": 535,
+  "valores_ausentes_por_coluna": {
+    "data_entrada": 0,
+    "valor_imovel": 0,
+    "valor_solicitado": 0,
+    "score_credito": 0,
+    "renda_mensal_declarada": 0,
+    "idade_cliente": 0,
+    "prazo_meses": 0,
+    "etapa_max_funil": 0
+  },
+  "ltv_invalido_ou_ausente": 0,
+  "registro_tratamento": [
+    {
+      "problema": "Imóveis do tipo Terreno",
+      "tratamento": "Removidos da análise",
+      "justificativa": "Regra indicada no desafio.",
+      "quantidade": 535
+    },
+    {
+      "problema": "LTV ausente na base",
+      "tratamento": "Calculado como valor_solicitado / valor_imovel, se valor_imovel > 0",
+      "justificativa": "Fórmula indicada no dicionário de dados.",
+      "quantidade": 0
+    },
+    {
+      "problema": "IDs duplicados",
+      "tratamento": "Contabilizados e preservados para investigação",
+      "justificativa": "Não excluir sem confirmar se são duplicidades reais.",
+      "quantidade": 0
+    },
+    {
+      "problema": "Linhas completamente duplicadas",
+      "tratamento": "Contabilizadas e preservadas para investigação",
+      "justificativa": "Evitar exclusão automática sem validação.",
+      "quantidade": 0
+    },
+    {
+      "problema": "Valores ausentes ou inválidos",
+      "tratamento": "Mantidos como ausentes, sem preenchimento arbitrário",
+      "justificativa": "Não há base suficiente para inferir valores.",
+      "quantidade": 0
+    },
+    {
+      "problema": "Etapa fora do intervalo 1 a 6",
+      "tratamento": "Preservada e exportada para investigação",
+      "justificativa": "Validar a ocorrência com a origem.",
+      "quantidade": 1
+    },
+    {
+      "problema": "Conversão mensal oscilante",
+      "tratamento": "Analisada como série descritiva",
+      "justificativa": "Não declarar queda contínua sem evidência.",
+      "quantidade": 24
+    }
+  ],
+  "observacoes_analiticas": [
+    "Resultados descritivos não demonstram causalidade.",
+    "Valor solicitado não equivale a receita ou perda financeira realizada.",
+    "Cenários de impacto são hipóteses e dependem de validação operacional.",
+    "Comparações entre canais podem refletir diferenças de perfil e processo.",
+    "Etapas fora do intervalo esperado foram preservadas para investigação."
+  ]
+}

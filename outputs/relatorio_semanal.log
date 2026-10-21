@@ -1,0 +1,76 @@
+2026-10-07 02:31:41,868 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:31:41,916 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:31:42,142 - INFO - Relat�rio semanal gerado com sucesso
+2026-10-07 02:32:22,342 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:32:22,366 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:32:22,533 - INFO - Relat�rio semanal gerado com sucesso
+2026-10-07 02:38:48,925 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:38:48,937 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:38:50,110 - INFO - Relat�rios CSV, Excel e HTML gerados com sucesso
+2026-10-07 02:40:21,742 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:40:21,758 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:40:22,212 - INFO - Relat�rios CSV, Excel e HTML gerados com sucesso
+2026-10-07 02:41:06,672 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:41:06,684 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:41:07,177 - INFO - Relat�rios CSV, Excel e HTML gerados com sucesso
+2026-10-07 02:41:15,830 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:41:15,847 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:41:16,279 - INFO - Relat�rios CSV, Excel e HTML gerados com sucesso
+2026-10-07 02:46:03,156 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:46:03,352 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:46:04,301 - ERROR - Erro inesperado durante a execu��o
+Traceback (most recent call last):
+  File "c:\Users\Gustavo Nascimento\OneDrive\Documentos\bari-ai-data-lab-case\data\parte_2\relatorio_semanal.py", line 237, in <module>
+    documento.build([
+    ~~~~~~~~~~~~~~~^^
+        titulo,
+        ^^^^^^^
+        tabela
+        ^^^^^^
+    ])
+    ^^
+  File "C:\Users\Gustavo Nascimento\AppData\Local\Programs\Python\Python314\Lib\site-packages\reportlab\platypus\doctemplate.py", line 1322, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gustavo Nascimento\AppData\Local\Programs\Python\Python314\Lib\site-packages\reportlab\platypus\doctemplate.py", line 1109, in build
+    self._endBuild()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Gustavo Nascimento\AppData\Local\Programs\Python\Python314\Lib\site-packages\reportlab\platypus\doctemplate.py", line 1044, in _endBuild
+    if getattr(self,'_doSave',1): self.canv.save()
+                                  ~~~~~~~~~~~~~~^^
+  File "C:\Users\Gustavo Nascimento\AppData\Local\Programs\Python\Python314\Lib\site-packages\reportlab\pdfgen\canvas.py", line 1302, in save
+    self._doc.SaveToFile(self._filename, self)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gustavo Nascimento\AppData\Local\Programs\Python\Python314\Lib\site-packages\reportlab\pdfbase\pdfdoc.py", line 210, in SaveToFile
+    raise TypeError('Cannot use %s as a filename or file' % repr(filename))
+TypeError: Cannot use WindowsPath('outputs/relatorio_semanal.pdf') as a filename or file
+2026-10-07 02:46:57,881 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:46:57,908 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:46:58,415 - INFO - Relat�rios CSV, Excel, HTML e PDF gerados com sucesso
+2026-10-07 02:50:45,775 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 02:50:45,784 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 02:50:46,238 - INFO - Relat�rios CSV, Excel, HTML e PDF gerados com sucesso
+2026-10-07 03:10:51,052 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 03:10:51,066 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 03:10:51,508 - INFO - Relat�rios CSV, Excel, HTML e PDF gerados com sucesso
+2026-10-07 03:28:53,396 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-07 03:28:53,402 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-07 03:28:53,818 - INFO - Relat�rios CSV, Excel, HTML e PDF gerados com sucesso
+2026-10-08 21:57:02,454 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-08 21:57:02,473 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-08 21:57:03,543 - INFO - Relat�rios CSV, Excel, HTML e PDF gerados com sucesso
+2026-10-08 21:59:02,785 - INFO - Base carregada com sucesso: 6400 propostas
+2026-10-08 21:59:02,839 - INFO - Terrenos removidos. Base final: 5865 propostas
+2026-10-08 21:59:03,382 - INFO - Relat�rios CSV, Excel, HTML e PDF gerados com sucesso
+2026-10-08 23:27:15,760 - INFO - Início da geração do relatório semanal
+2026-10-08 23:27:15,848 - INFO - Base carregada com sucesso: 6400 registros
+2026-10-08 23:27:15,888 - INFO - Terrenos removidos: 535; base após filtro: 5865
+2026-10-08 23:27:16,642 - INFO - Relatórios gerados com sucesso. Semanas: 105; propostas analisadas: 5865
+2026-10-08 23:44:01,128 - INFO - Início da geração do relatório semanal
+2026-10-08 23:44:01,169 - INFO - Base carregada: 6400 registros
+2026-10-08 23:44:01,202 - INFO - Terrenos removidos: 535; base final: 5865
+2026-10-08 23:44:01,814 - INFO - Relatórios gerados. Semanas: 105; propostas: 5865
+2026-10-20 23:56:20,125 - INFO - Início da geração do relatório semanal
+2026-10-20 23:56:20,161 - INFO - Base carregada: 6400 registros
+2026-10-20 23:56:20,177 - INFO - Terrenos removidos: 535; base final: 5865
+2026-10-20 23:56:21,079 - INFO - Relatórios gerados. Semanas: 105; propostas: 5865

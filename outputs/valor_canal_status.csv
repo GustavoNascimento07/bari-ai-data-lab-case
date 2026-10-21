@@ -1,0 +1,31 @@
+canal_origem,status_final,propostas,valor_total,valor_total_milhoes
+Correspondente,Contratada,223,78004838.36,78.00483836
+Correspondente,Desistiu,408,163804616.36,163.80461636
+Correspondente,Documentação pendente,95,37645364.81,37.645364810000004
+Correspondente,Problema garantia,192,75555107.02,75.55510702
+Correspondente,Reprovada crédito,255,102322142.82000001,102.32214282000001
+Correspondente,Sem retorno,454,177177658.12,177.17765812000002
+Indicação,Contratada,197,71960578.44,71.96057843999999
+Indicação,Desistiu,201,79813310.19,79.81331019
+Indicação,Documentação pendente,69,26837539.57,26.83753957
+Indicação,Problema garantia,91,35568585.85,35.56858585
+Indicação,Reprovada crédito,118,48358389.63,48.358389630000005
+Indicação,Sem retorno,234,84006641.03,84.00664103
+Mídia paga,Contratada,250,92451616.7,92.4516167
+Mídia paga,Desistiu,265,106634528.84,106.63452884
+Mídia paga,Documentação pendente,80,30058214.81,30.05821481
+Mídia paga,Problema garantia,124,47770108.32,47.77010832
+Mídia paga,Reprovada crédito,160,55686046.6,55.686046600000005
+Mídia paga,Sem retorno,287,111602098.13,111.60209813
+Organico,Contratada,255,100637938.28,100.63793828
+Organico,Desistiu,313,120626776.65,120.62677665000001
+Organico,Documentação pendente,83,31929541.48,31.92954148
+Organico,Problema garantia,121,48955369.37,48.95536937
+Organico,Reprovada crédito,189,70976753.49,70.97675349
+Organico,Sem retorno,312,121843938.38,121.84393838
+Parceria,Contratada,203,73653341.1,73.65334109999999
+Parceria,Desistiu,205,79765918.95,79.76591895
+Parceria,Documentação pendente,71,26095298.62,26.09529862
+Parceria,Problema garantia,80,33232775.84,33.23277584
+Parceria,Reprovada crédito,122,47672468.64,47.67246864
+Parceria,Sem retorno,208,80512117.1,80.5121171
